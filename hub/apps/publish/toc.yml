@@ -59,8 +59,6 @@ items:
             href: publish-your-app/msix/add-additional-information.md
           - name: Import and export Store listings
             href: publish-your-app/msix/import-and-export-store-listings.md
-          - name: Write a great app description
-            href: publish-your-app/msix/write-great-app-description.md
           - name: Responsible AI FAQ for AI-generated keywords
             href: publish-your-app/responsible-ai-faq-ai-generated-keywords.md
       - name: Manage Submission options
@@ -207,6 +205,10 @@ items:
             href: publish-your-app/add-on/manage-submission-options.md  
           - name: Update existing add-on
             href: publish-your-app/add-on/publish-update-to-your-app-on-store.md  
+  - name: Best practices
+    items: 
+      - name: Best practices for app submission
+        href: /hub/apps/publish/best-practices/best-practices.md
 - name: Get your app certified
   items: 
     - name: MSIX
