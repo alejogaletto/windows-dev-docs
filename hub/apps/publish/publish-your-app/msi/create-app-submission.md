@@ -23,6 +23,7 @@ Items that you are required to provide or specify are noted below. Some areas ar
 | Field name     | Required     | Notes                                                 |
 | -------------- | ------------ | ----------------------------------------------------- |
 | **Markets**    | **Required** | Default: All possible markets                         |
+| **Discoverability** | **Required** | One of: Available in microsoft store; Available through link.|
 | **Pricing**    | **Required** | One of: Free; Paid; Freemium; Subscription.           |
 | **Free Trial** | **Required** | _Not_ required if pricing is set to Free or Freemium. |
 
@@ -78,9 +79,9 @@ Items that you are required to provide or specify are noted below. Some areas ar
 | Field name                 | Required     | Notes                                                                 |
 | -------------------------- | ------------ | --------------------------------------------------------------------- |
 | **Package URL**            | **Required** | At least one package URL is required                                  |
-| **Language**               | **Required** | At least one language is required                                     |
 | **Architecture**           | **Required** |                                                                       |
 | **Installer parameters**   | **Required** | Support for silent install is required. Other parameters are optional |
+| **Language**               | **Required** | At least one language is required                                     |
 | **App type**               | **Requited** | Specify between EXE and MSI                                           |
 | **Installer handling URL** | **Not Required** |                                           |
 
@@ -91,6 +92,7 @@ Each language has a separate store listing page. One listing page is required. I
 | Field name                         | Required     | Notes                                                                                                                 |
 | ---------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------- |
 | **Description**                    | **Required** | Character limit: 10,000                                                                                               |
+| **Product name**                    | Not required | Select on dropdown                                             |
 | **What’s new in this version**     | Not required | Character limit: 1,500                                                                                                |
 | **App features**                   | Not required | Character limit: 200 per feature; Feature limit: 20.                                                                  |
 | **Screenshots**                    | **Required** | Required: 1; Recommended: 4+; Maximum: 10                                                                             |

@@ -114,7 +114,7 @@ items:
           - name: Import and export Store listings
             href: publish-your-app/msi/import-and-export-store-listings.md
           - name: Write a great app description
-            href: publish-your-app/msi/write-great-app-description.md
+            href: hub/apps/publish/best-practices/best-practices.md#write-a-great-app-description-for-msix-app
           - name: Responsible AI FAQ for AI-Generated keywords
             href: publish-your-app/responsible-ai-faq-ai-generated-keywords.md
       - name: App submission controls
